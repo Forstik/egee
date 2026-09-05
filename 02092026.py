@@ -105,3 +105,20 @@ print(2 ** (1/2))
 #** - 2
 #* / // % - 3
 #+ - - 4
+
+a = "Привет,"
+b = "Future step"
+print(a)
+print(b)
+
+student ={"Имя":"Иван", "Фамилия": "Иванов", "Возвраст": "17","Класс": "11A"}
+dict = student
+print(dict)
+
+my_tuple = (1,2,3,4)
+labels = 1,2,3,4
+print(labels, sep=";")
+
+name = input()
+a = "Привет,"
+print(a,name)

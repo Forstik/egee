@@ -87,3 +87,37 @@
 # b = b // 3
 # print(hex(c + b)[2:])
 
+# №1
+# a,b,c = 7,14,21
+# g = (c - b) * a
+# h = a ** 2
+# j = c % 5
+# result = g + j
+# final_result = result // h
+# print(bin(final_result)[2:])
+
+
+
+
+# №2
+# a = input()
+# b= int(a, 16)
+# result = b * 5 + (b % 8)
+# final_result = result // 3
+# oct_num = oct(final_result)[2:]
+# print(oct_num)
+
+# №3
+# a,b,c = 9,12,20
+# g = a ** b
+# j = c // 4
+# d = g + j
+# print(hex(d)[2:])
+
+#№4
+# from math import floor
+# a,b =int(input()),int(input())
+# k = oct(a) ** 0.5
+# j = oct(b) / 3
+# print=floor(k + j)
+print(a_+dasdadfrghjksdgk;hdsjk;f;ladybaggabe)

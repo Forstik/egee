@@ -8,10 +8,16 @@
 # h = ceil(log2(S))
 # print(h)
 
-# res = 1280 * 960.
+# from math import ceil, log2
+# res = 1280 * 960
 # palitra = 2048
 # skorost = 96468992
 # t = 132
+# h = ceil(log2(palitra))
+# kadr = res * h
+# max_obem = skorost * t
+# max_kol = max_obem // kadr
+# print(max_kol)
 
 # from math import ceil
 # res = 1280 * 720
@@ -74,14 +80,43 @@
 # Голосовое сообщение продолжительностью 180 с было записано в формате стерео и оцифровано с глубиной кодирования 8 бит и частотой дискретизации 24 000 измерений в секунду.
 # Сжатие данных не использовалось. Файл с оцифрованным голосовым сообщением был передан по каналу связи, пропускная способность которого 48 000 бит/с.
 # Сколько секунд длилась передача файла? В ответе запишите целое число, единицу измерения указывать не нужно.
-k = 2
-n = 24000
-t = 180
-bitrate = 48000
-i = 8
-V = k * t * i * n
-time_otpravki = V // bitrate
-print(time_otpravki)
+# k = 2
+# n = 24000
+# t = 180
+# bitrate = 48000
+# i = 8
+# V = k * t * i * n
+# time_otpravki = V // bitrate
+# print(time_otpravki)
+#
+# V = k * t * i * n
+# i = V / (k * t * n)
 
-V = k * t * i * n
-i = V / (k * t * n)
+# from math import log2
+# colors = 16777216
+# i = (log2(colors))
+# print(i)
+
+# res1 = 2560 * 1440
+# i1 = 230
+# res2 = 1920 * 1080
+# i2 = 28
+# foto = 130
+# seize_bits1 = res1 * i1
+# size_bits2 = res2 * i2
+# raznica = (seize_bits1 - size_bits2) / foto
+# kb = raznica // 2 ** 13
+# print(kb)
+
+# from math import ceil, log2
+# res = 1280 * 1024
+# palitra = 256
+# pamat = 4
+# vse_karti = 35
+# foto_na_poslednei_karte = 307
+# i = ceil(log2(palitra))
+# odno_foto = (res * i) / 8
+# baiti = pamat * 2 ** 30
+# max_snimkov = baiti // odno_foto
+# max_foto = (vse_karti - 1) * max_snimkov + foto_na_poslednei_karte
+# print(max_snimkov)

@@ -110,14 +110,32 @@
 # Ответ: одно целое число — количество простых множителей.
 # Данные для ответа:
 # В ответе запишите значение, которое получится, если пользователь введёт 72.
-n = int(input())
-divisor = 2
-count = 0
-while divisor <= n:
-    while n % divisor == 0:
-        count += 1
-        n //= divisor
-    divisor += 1
-if n > 1:
-    count += 1
-print(count)
+# n = int(input())
+# divisor = 2
+# count = 0
+# while divisor <= n:
+#     while n % divisor == 0:
+#         count += 1
+#         n //= divisor
+#     divisor += 1
+# if n > 1:
+#     count += 1
+# print(count)
+# Пользователь вводит целое число N от 2 до 1000000.
+# С помощью вложенных циклов while разложите число на простые множители и найдите наибольший из них.
+# Например, 150 = 2 · 3 · 5 · 5, поэтому наибольший простой множитель — 5.
+# Ответ: одно целое число — наибольший простой множитель.
+# Данные для ответа:
+# В ответе запишите значение, которое получится, если пользователь введёт 210.
+# n = int(input())
+# divisior = 2
+# count = 0
+# while divisior * divisior <= n:
+#     if n % divisior == 0:
+#         while n % divisior == 0:
+#             count = divisior
+#             n //= divisior
+#     divisior += 1
+# if n > 1:
+#     count = n
+# print(count)

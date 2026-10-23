@@ -282,16 +282,16 @@ from unittest import result
 # a = int(input())
 # b = int(input())
 # result = 0
-# if a > b:
+# total = 0
+# if a < b:
 #     result = a
 # else:
 #     result = b
-#     while result < 1000:
+#     while result > 0 and total == 0:
 #         if a % result == 0 and b % result == 0:
-#             print(result)
-#         else:
-#             result -= 1
-# print(result)
+#             total = result
+#         result = result - 1
+# print(total)
 # Пользователь вводит неотрицательное целое число N. Найдите целую часть его квадратного корня: наибольшее целое K, для которого K² ≤ N.
 # Используйте целочисленный вариант метода Ньютона.
 # Для N > 0 начните с x = N и вычислите следующее приближение y = (x + N // x) // 2.

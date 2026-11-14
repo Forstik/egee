@@ -139,3 +139,11 @@
 # if n > 1:
 #     count = n
 # print(count)
+
+# a = 3333 + 322 - 9111 - 9
+# count = 0
+# while a:
+#     if a % 3 == 2:
+#         count += 1
+#     a = a // 3
+# print(count)

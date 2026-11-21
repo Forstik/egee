@@ -74,10 +74,10 @@
 # которая встречается в слове хотя бы дважды с разными начальными индексами.
 # Вхождения могут перекрываться. Если повторов нет, результат равен 0.
 # Ответ: одно целое число — максимальная длина.
-word = input()
-len_word = len(word)
-for i in range(1,len(word)):
-    for j in range(i + 1,len(word)):
-        part = word[i:j]
-        if
+# word = input()
+# len_word = len(word)
+# for i in range(1,len(word)):
+#     for j in range(i + 1,len(word)):
+#         part = word[i:j]
+#         if
 
